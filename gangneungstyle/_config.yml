@@ -1,0 +1,5 @@
+name: Gangneung Style
+markdown: redcarpet
+pygments: true
+timezone: Asia/Seoul
+defaultlang: en

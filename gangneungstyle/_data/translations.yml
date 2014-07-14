@@ -1,0 +1,6 @@
+en:
+   landing-page:
+      baseurl: 'en'
+fr:
+   landing-page:
+      baseurl: 'fr'
