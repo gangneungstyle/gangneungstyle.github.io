@@ -2,6 +2,7 @@
 layout: post
 title:  "Bienvenue sur Gangneung Style!"
 date:   2014-07-14 10:40:21
+author: David
 lang: fr
 categories:
    - fr 

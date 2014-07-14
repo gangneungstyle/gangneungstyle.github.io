@@ -1,16 +1,21 @@
 ---
 layout: default
 title: "Gangneung Style (강릉 스타일)"
-lang: en
 ---
+  {% for post in site.posts %}
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
+    {% if page.lang %}
       {% if post.lang contains page.lang %}
-        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <div class="blog-post">
+        <h2 class="blog-post-title">{{ post.date | date_to_string }}<a href="{{ post.url }}">{{ post.title }}</a></h2>
+      </div>
       {% endif %}
-    {% endfor %}
-  </ul>
-</div>
+
+    {% else %}
+      <div class="blog-post">
+        <h2 class="blog-post-title">{{ post.date | date_to_string }}<a href="{{ post.url }}">{{ post.title }}</a></h2>
+      </div>
+    {% endif %}
+
+  {% endfor %}
+

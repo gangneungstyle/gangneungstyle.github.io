@@ -1,16 +1,40 @@
 ---
 layout: default
-title: Gangneung Style (강릉 스타일)
+title: "Gangneung Style (강릉 스타일)"
 lang: fr
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      {% if post.lang contains page.lang %}
-        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-</div>
+<div class="container">
+
+  <div class="blog-header">
+    <h1 class="blog-title">{{ t.[page.lang].name }}</h1>
+    <p class="lead blog-description">{{ t.[page.lang].description }}</p>
+  </div>
+
+
+  <div class="row">
+
+    <div class="col-sm-8 blog-main">
+
+      {% for post in site.posts %}
+
+        {% if page.lang %}
+          {% if post.lang contains page.lang %}
+          <div class="blog-post">
+            <h2 class="blog-post-title">{{ post.date | date_to_string }}<a href="{{ post.url }}">{{ post.title }}</a></h2>
+          </div>
+          {% endif %}
+
+        {% else %}
+          <div class="blog-post">
+            <h2 class="blog-post-title">{{ post.date | date_to_string }}<a href="{{ post.url }}">{{ post.title }}</a></h2>
+          </div>
+        {% endif %}
+
+      {% endfor %}
+
+    </div>
+  </div>
+
+</div> <!-- div container -->
+
