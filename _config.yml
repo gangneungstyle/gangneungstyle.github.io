@@ -1,5 +1,7 @@
 name: Gangneung Style
+url: http://localhost:4000/
 markdown: redcarpet
 pygments: true
 timezone: Asia/Seoul
 defaultlang: en
+rss_path: /rss
