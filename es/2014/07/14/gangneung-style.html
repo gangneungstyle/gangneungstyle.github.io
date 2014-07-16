@@ -12,7 +12,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Bienvenue sur Gangneung Style!</title>
+    <title>Welcome to Gangneung Style!</title>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -38,9 +38,9 @@
       <div class="container">
         <nav class="blog-nav">
           
-          <a class="blog-nav-item active" href="//">Gangneung Style</a>
+          <a class="blog-nav-item active" href="/">Gangneung Style</a>
+          <a class="blog-nav-item " href="//">Pantalla de inicio</a>
           
-          <a class="blog-nav-item" href="/feed.xml"><i class="fa fa-rss-square"></i></a>
         </nav>
       </div>
     </div>
@@ -49,7 +49,7 @@
     <div class="container">
 
       <div class="blog-header">
-        <h1 class="blog-title"></h1>
+        <h2 class="blog-title">Gangneung Style</h2>
         <p class="lead blog-description"></p>
       </div>
 
@@ -63,7 +63,7 @@
 
 
 <div class="blog-post">
-  <h2 class="blog-post-title">Bienvenue sur Gangneung Style!</h2>
+  <h2 class="blog-post-title">Welcome to Gangneung Style!</h2>
   <p class="blog-post-meta">14 Jul 2014  David<br/>
     
     
@@ -72,38 +72,17 @@
     
       
       
-        
-        <!--<a href="/fr/2014/07/14/gangneung-style.html"><span class="flag-icon flag-icon-fr"></span>  frances</a>-->
+        Lire ce post en <a href="/fr/2014/07/14/gangneung-style.html"><span class="flag-icon flag-icon-fr"></span> français</a><br/>
       
     
       
       
-        
-        <!--<a href="/en/2014/07/14/gangneung-style.html"><span class="flag-icon flag-icon-en"></span>  inglès</a>-->
-      
-    
-    
-      
-      
-        
-        
-      
-        
-        
-          
-          <a href="/fr/2014/07/14/gangneung-style.html"><span class="flag-icon flag-icon-fr"></span> frances</a>
-        
-      
-        
-        
-          
-          <a href="/en/2014/07/14/gangneung-style.html"><span class="flag-icon flag-icon-en"></span> inglès</a>
-        
+        Read this post in <a href="/en/2014/07/14/gangneung-style.html"><span class="flag-icon flag-icon-en"></span> english</a><br/>
       
     
   </p>
 
-  <p>Este es en espanol</p>
+  <p>Post en espanol</p>
 
 <p>You&#39;ll find this post in your <code>_posts</code> directory - edit this post and re-build (or run with the <code>-w</code> switch) to see your changes!
 To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention: YYYY-MM-DD-name-of-post.ext.</p>
@@ -112,6 +91,15 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
 
 <p>Jekyll also offers powerful support for code snippets:</p>
 
+<div class="highlight"><pre><code class="ruby"><span class="k">def</span> <span class="nf">show</span>
+  <span class="vi">@widget</span> <span class="o">=</span> <span class="no">Widget</span><span class="p">(</span><span class="n">params</span><span class="o">[</span><span class="ss">:id</span><span class="o">]</span><span class="p">)</span>
+  <span class="n">respond_to</span> <span class="k">do</span> <span class="o">|</span><span class="nb">format</span><span class="o">|</span>
+    <span class="nb">format</span><span class="o">.</span><span class="n">html</span> <span class="c1"># show.html.erb</span>
+    <span class="nb">format</span><span class="o">.</span><span class="n">json</span> <span class="p">{</span> <span class="n">render</span> <span class="ss">json</span><span class="p">:</span> <span class="vi">@widget</span> <span class="p">}</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div>
+
 
 </div>
 
@@ -119,7 +107,7 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
 
         <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
           <div class="sidebar-module sidebar-module-inset">
-            <h4></h4>
+            <h4>Informacion</h4>
             <p></p>
           </div>
 
@@ -154,6 +142,11 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
 
     </div> <!-- /.container -->
 
+    <div class="blog-footer">
+      <p>
+        <a href="/feed.xml"><i class="fa fa-rss-square"></i></a>
+      </p>
+    </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
