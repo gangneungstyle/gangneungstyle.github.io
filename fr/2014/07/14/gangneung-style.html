@@ -31,6 +31,37 @@
     <!-- Css for flags -->
     <link href="/assets/docs.css" rel="stylesheet">
     <link href="/css/flag-icon.css" rel="stylesheet">
+
+    <script language="javascript">
+
+$(function(){
+    alert('test 2');
+    $('#blog-header').data('size','big');
+});
+
+$(window).scroll(function(){
+    if($(document).scrollTop() > 0)
+    {
+        if($('#blog-header').data('size') == 'big')
+        {
+            $('#blog-header').data('size','small');
+            $('#blog-header').stop().animate({
+                height:'40px'
+            },600);
+        }
+    }
+    else
+    {
+        if($('#blog-header').data('size') == 'small')
+        {
+            $('#blog-header').data('size','big');
+            $('#blog-header').stop().animate({
+                height:'170px'
+            },600);
+        }
+    }
+})
+    </script>
   </head>
   <body role="document">
 
@@ -43,20 +74,27 @@
           
         </nav>
       </div>
+
+      <div id="#blog-header" class="col-sm-12 blog-header">
+        <div class="container">
+          <h2 class="blog-title">Gangneung Style</h2>
+          <p class="lead blog-description">Ce blog a été créé lorsque nous avons déménagé en Corée, pour une période de 3 ans</p>
+        </div>
+      </div>
+
     </div>
 
 
     <div class="container">
 
-      <div class="blog-header">
-        <h2 class="blog-title">Gangneung Style</h2>
-        <p class="lead blog-description">Ce blog a été créé lorsque nous avons déménagé en Corée, pour une période de 3 ans</p>
-      </div>
-
-
       <div class="row">
 
-        <div class="col-sm-8 blog-main">
+        <!--<div class="col-sm-12 blog-header">
+          <h2 class="blog-title">Gangneung Style</h2>
+          <p class="lead blog-description">Ce blog a été créé lorsque nous avons déménagé en Corée, pour une période de 3 ans</p>
+        </div>-->
+
+        <div class="col-sm-12 blog-main">
           
 
   
@@ -90,18 +128,29 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
 <p>강릉 스타일</p>
 
 <p>Exemple d&#39;image:
-<img class="img-responsive" src="https://davidbergot.github.io/assets/Jeonju-South_Korea.jpg"/>
-<small>Photo by <a href="https://www.flickr.com/photos/emmanueldyan/5748386859/in/photolist-9KXZ9g-as5bF-5r7ccH-5sLaGc-5syggM-9h98EB-4oSC78-apWjK-9KXWED-5sxMKp-KEJQQ-5NkWJV-5rymE7-5sxMKV-4uZfdQ-bcFocV-9KXYAD-9KV5YB-9KVNGX-9KZ9gd-9KZcih-9KYcWs-dNQUYB-9KY8Gf-9KYxN9-5ryjWm-GULQq-3uwBE7-7dim3T-8tRWBH-84c2j8-mQGnKa-fAnGzG-5scVEJ-5RR8ts-6z5wZd-5sLyWA-5sLL4L-5qEW6v-9nEbbL-5sQygb-5ru3E4-9KWb1i-9KZaUL-9KW93V-dEk5tB-dqpF9g-9KVDc8-89fEh3-9L1Md1">Emmanuel DYAN</a></small></p>
+<div class="container-picture">
+  <img class="img-responsive" src="https://davidbergot.github.io/assets/Jeonju-South_Korea.jpg"/>
+  <small>Photo by <a href="https://www.flickr.com/photos/emmanueldyan/5748386859/in/photolist-9KXZ9g-as5bF-5r7ccH-5sLaGc-5syggM-9h98EB-4oSC78-apWjK-9KXWED-5sxMKp-KEJQQ-5NkWJV-5rymE7-5sxMKV-4uZfdQ-bcFocV-9KXYAD-9KV5YB-9KVNGX-9KZ9gd-9KZcih-9KYcWs-dNQUYB-9KY8Gf-9KYxN9-5ryjWm-GULQq-3uwBE7-7dim3T-8tRWBH-84c2j8-mQGnKa-fAnGzG-5scVEJ-5RR8ts-6z5wZd-5sLyWA-5sLL4L-5qEW6v-9nEbbL-5sQygb-5ru3E4-9KWb1i-9KZaUL-9KW93V-dEk5tB-dqpF9g-9KVDc8-89fEh3-9L1Md1">Emmanuel DYAN</a></small>
+</div></p>
 
 
 </div>
 
         </div><!-- ./blog-main -->
 
-        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-          <div class="sidebar-module sidebar-module-inset">
+        <div class="col-sm-12 blog-sidebar">
+          <div class="container sidebar-module sidebar-module-inset">
+          <!--<div class="sidebar-module sidebar-module-inset">-->
             <h4>À propos</h4>
-            <p>Ici on décrira plus précisément le but de ce blog</p>
+            <p>
+              
+                <div class="col-sm-2">
+                  <img class="img-responsivei img-circle img-author" src="https://davidbergot.github.io/assets/David.jpg"/>
+                </div>
+              
+              Ici on décrira plus précisément le but de ce blog. Ici on décrira plus précisément le but de ce blog. Ici on décrira plus précisément le but de ce blog. Ici on décrira plus précisément le but de ce blog. Ici on décrira plus précisément le but de ce blog
+            </p>
+          <!--</div>-->
           </div>
 
           <div class="sidebar-module">
@@ -132,7 +181,6 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
         </div><!-- /.blog-sidebar -->     
 
       </div><!-- ./row -->   
-
     </div> <!-- /.container -->
 
     <div class="blog-footer">

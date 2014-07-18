@@ -31,6 +31,37 @@
     <!-- Css for flags -->
     <link href="/assets/docs.css" rel="stylesheet">
     <link href="/css/flag-icon.css" rel="stylesheet">
+
+    <script language="javascript">
+
+$(function(){
+    alert('test 2');
+    $('#blog-header').data('size','big');
+});
+
+$(window).scroll(function(){
+    if($(document).scrollTop() > 0)
+    {
+        if($('#blog-header').data('size') == 'big')
+        {
+            $('#blog-header').data('size','small');
+            $('#blog-header').stop().animate({
+                height:'40px'
+            },600);
+        }
+    }
+    else
+    {
+        if($('#blog-header').data('size') == 'small')
+        {
+            $('#blog-header').data('size','big');
+            $('#blog-header').stop().animate({
+                height:'170px'
+            },600);
+        }
+    }
+})
+    </script>
   </head>
   <body role="document">
 
@@ -42,20 +73,27 @@
           
         </nav>
       </div>
+
+      <div id="#blog-header" class="col-sm-12 blog-header">
+        <div class="container">
+          <h2 class="blog-title">Gangneung Style</h2>
+          <p class="lead blog-description">Discovery of Korea</p>
+        </div>
+      </div>
+
     </div>
 
 
     <div class="container">
 
-      <div class="blog-header">
-        <h2 class="blog-title">Gangneung Style</h2>
-        <p class="lead blog-description">Discovery of Korea</p>
-      </div>
-
-
       <div class="row">
 
-        <div class="col-sm-8 blog-main">
+        <!--<div class="col-sm-12 blog-header">
+          <h2 class="blog-title">Gangneung Style</h2>
+          <p class="lead blog-description">Discovery of Korea</p>
+        </div>-->
+
+        <div class="col-sm-12 blog-main">
           <div class="row">
 
   
@@ -95,10 +133,15 @@
 
         </div><!-- ./blog-main -->
 
-        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-          <div class="sidebar-module sidebar-module-inset">
+        <div class="col-sm-12 blog-sidebar">
+          <div class="container sidebar-module sidebar-module-inset">
+          <!--<div class="sidebar-module sidebar-module-inset">-->
             <h4>About</h4>
-            <p>This is where we can describe a bit more the objective of this blog</p>
+            <p>
+              
+              This is where we can describe a bit more the objective of this blog
+            </p>
+          <!--</div>-->
           </div>
 
           <div class="sidebar-module">
@@ -129,7 +172,6 @@
         </div><!-- /.blog-sidebar -->     
 
       </div><!-- ./row -->   
-
     </div> <!-- /.container -->
 
     <div class="blog-footer">
