@@ -3,8 +3,8 @@
   <channel>
     <title>Gangneung Style</title>
     <description></description>	
-    <link>https://davidbergot.github.io</link>
-    <atom:link href="https://davidbergot.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <link>https://gangneungstyle.github.io</link>
+    <atom:link href="https://gangneungstyle.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Welcome to Gangneung Style!</title>
@@ -27,8 +27,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 </description>
         <pubDate>Mon, 14 Jul 2014 19:40:21 +0900</pubDate>
-        <link>https://davidbergot.github.io/es/2014/07/14/gangneung-style.html</link>
-        <guid isPermaLink="true">https://davidbergot.github.io/es/2014/07/14/gangneung-style.html</guid>
+        <link>https://gangneungstyle.github.io/es/2014/07/14/gangneung-style.html</link>
+        <guid isPermaLink="true">https://gangneungstyle.github.io/es/2014/07/14/gangneung-style.html</guid>
       </item>
     
       <item>
@@ -42,13 +42,13 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 &lt;p&gt;Exemple d&amp;#39;image:
 &lt;div class=&quot;container-picture&quot;&gt;
-  &lt;img class=&quot;img-responsive&quot; src=&quot;https://davidbergot.github.io/assets/Jeonju-South_Korea.jpg&quot;/&gt;
+  &lt;img class=&quot;img-responsive&quot; src=&quot;https://gangneungstyle.github.io/assets/Jeonju-South_Korea.jpg&quot;/&gt;
   &lt;small&gt;Photo by &lt;a href=&quot;https://www.flickr.com/photos/emmanueldyan/5748386859/in/photolist-9KXZ9g-as5bF-5r7ccH-5sLaGc-5syggM-9h98EB-4oSC78-apWjK-9KXWED-5sxMKp-KEJQQ-5NkWJV-5rymE7-5sxMKV-4uZfdQ-bcFocV-9KXYAD-9KV5YB-9KVNGX-9KZ9gd-9KZcih-9KYcWs-dNQUYB-9KY8Gf-9KYxN9-5ryjWm-GULQq-3uwBE7-7dim3T-8tRWBH-84c2j8-mQGnKa-fAnGzG-5scVEJ-5RR8ts-6z5wZd-5sLyWA-5sLL4L-5qEW6v-9nEbbL-5sQygb-5ru3E4-9KWb1i-9KZaUL-9KW93V-dEk5tB-dqpF9g-9KVDc8-89fEh3-9L1Md1&quot;&gt;Emmanuel DYAN&lt;/a&gt;&lt;/small&gt;
 &lt;/div&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 14 Jul 2014 19:40:21 +0900</pubDate>
-        <link>https://davidbergot.github.io/fr/2014/07/14/gangneung-style.html</link>
-        <guid isPermaLink="true">https://davidbergot.github.io/fr/2014/07/14/gangneung-style.html</guid>
+        <link>https://gangneungstyle.github.io/fr/2014/07/14/gangneung-style.html</link>
+        <guid isPermaLink="true">https://gangneungstyle.github.io/fr/2014/07/14/gangneung-style.html</guid>
       </item>
     
       <item>
@@ -70,8 +70,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 </description>
         <pubDate>Mon, 14 Jul 2014 19:40:21 +0900</pubDate>
-        <link>https://davidbergot.github.io/en/2014/07/14/gangneung-style.html</link>
-        <guid isPermaLink="true">https://davidbergot.github.io/en/2014/07/14/gangneung-style.html</guid>
+        <link>https://gangneungstyle.github.io/en/2014/07/14/gangneung-style.html</link>
+        <guid isPermaLink="true">https://gangneungstyle.github.io/en/2014/07/14/gangneung-style.html</guid>
       </item>
     
   </channel>
