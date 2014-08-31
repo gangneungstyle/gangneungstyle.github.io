@@ -30,9 +30,17 @@ h6, .h6 {
     /*width: 970px;*/
     width: 1024px;
   }
+
   .container-picture {
     width: 1024px;
     margin: 10px -15px 10px;
+    padding: 0 -15px 0;;
+    box-sizing: border-box;
+    content: " ";
+    display: table;
+    clear: both;
+    /*margin-left: auto;
+    margin-right: auto;*/
   }
 }
 
@@ -95,6 +103,8 @@ h6, .h6 {
   background-color: #ffffff;
   width: 100%;
   height: 170px;
+  /*background-image: url("../assets/alpensia_sunset_banner.png");
+  background-repeat: no-repeat;*/
 }
 .blog-title {
   /*margin-top: 30px;*/
@@ -120,9 +130,14 @@ h6, .h6 {
   background-color: #ffffff;
 }
 
+.block-picture {
+  margin: 0 -15px 0;
+}
+
 .picture {
   width: 100%;
   height: auto;
+  padding: 0;
 }
 
 /* Sidebar modules for boxing content */

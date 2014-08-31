@@ -7,72 +7,71 @@
     <atom:link href="https://gangneungstyle.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Welcome to Gangneung Style!</title>
-        <description>&lt;p&gt;Post en espanol&lt;/p&gt;
+        <title>First post</title>
+        <description>&lt;p&gt;Ça y est, nous avons déménagé en Corée du Sud.&lt;/p&gt;
 
-&lt;p&gt;You&amp;#39;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+&lt;p&gt;Déjà une semaine de passée, et même si nous n&amp;#39;avons pas eu trop le temps de visiter, nous avons pu nous initier à la cuisine Coréenne, et visiter un peu la ville de Gangneung.&lt;/p&gt;
 
-&lt;p&gt;강릉 스타일&lt;/p&gt;
+&lt;p&gt;Nous avons passé la première semaine à Alpensia, une station de ski à PyeongChang. Elle ressemble beaucoup à celles que je connais dans les alpes, et ce n&amp;#39;est sans doute pas une coïncidence. Il y a peu d&amp;#39;activité l&amp;#39;été mais les montagnes autour sont très verte. La semaine prochaine, nous déménageons à &lt;a href=&quot;http://fr.wikipedia.org/wiki/Gangneung&quot; title=&quot;Gangneung sur Wikipedia&quot;&gt;Gangneung&lt;/a&gt;, une ville sur la côte est.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;Vous pouvez voir ci-dessous une sélection de photos illustrant nos découvertes.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;show&lt;/span&gt;
-  &lt;span class=&quot;vi&quot;&gt;@widget&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Widget&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;params&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;respond_to&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# show.html.erb&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;json&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;render&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@widget&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-</description>
-        <pubDate>Mon, 14 Jul 2014 19:40:21 +0900</pubDate>
-        <link>https://gangneungstyle.github.io/es/2014/07/14/gangneung-style.html</link>
-        <guid isPermaLink="true">https://gangneungstyle.github.io/es/2014/07/14/gangneung-style.html</guid>
-      </item>
-    
-      <item>
-        <title>Bienvenue sur Gangneung Style!</title>
-        <description>&lt;p&gt;Ceci est la traduction en français&lt;/p&gt;
-
-&lt;p&gt;You&amp;#39;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
-
-&lt;p&gt;강릉 스타일&lt;/p&gt;
-
-&lt;p&gt;Exemple d&amp;#39;image:
 &lt;div class=&quot;container-picture&quot;&gt;
-  &lt;img class=&quot;img-responsive&quot; src=&quot;https://gangneungstyle.github.io/assets/Jeonju-South_Korea.jpg&quot;/&gt;
-  &lt;small&gt;Photo by &lt;a href=&quot;https://www.flickr.com/photos/emmanueldyan/5748386859/in/photolist-9KXZ9g-as5bF-5r7ccH-5sLaGc-5syggM-9h98EB-4oSC78-apWjK-9KXWED-5sxMKp-KEJQQ-5NkWJV-5rymE7-5sxMKV-4uZfdQ-bcFocV-9KXYAD-9KV5YB-9KVNGX-9KZ9gd-9KZcih-9KYcWs-dNQUYB-9KY8Gf-9KYxN9-5ryjWm-GULQq-3uwBE7-7dim3T-8tRWBH-84c2j8-mQGnKa-fAnGzG-5scVEJ-5RR8ts-6z5wZd-5sLyWA-5sLL4L-5qEW6v-9nEbbL-5sQygb-5ru3E4-9KWb1i-9KZaUL-9KW93V-dEk5tB-dqpF9g-9KVDc8-89fEh3-9L1Md1&quot;&gt;Emmanuel DYAN&lt;/a&gt;&lt;/small&gt;
-&lt;/div&gt;&lt;/p&gt;
+  &lt;img class=&quot;img-responsive picture&quot; src=&quot;http://localhost:4000/assets/gangneung_barbecue.png&quot;/&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;small&gt;Un restaurant de barbecue à Gyo-dong, Gangneung.&lt;/small&gt;&lt;/p&gt;
+
+&lt;div class=&quot;container-picture&quot;&gt;
+  &lt;img class=&quot;img-responsive picture&quot; src=&quot;http://localhost:4000/assets/alpensia.png&quot;/&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;small&gt;La station d&amp;#39;Alpensia, à PyeongChang&lt;/small&gt;&lt;/p&gt;
+
+&lt;div class=&quot;container-picture&quot;&gt;
+  &lt;img class=&quot;img-responsive picture&quot; src=&quot;http://localhost:4000/assets/alpensia_sunset.png&quot;/&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;small&gt;Une autre vue d&amp;#39;Alpensia au coucher du soleil, sur la gauche, une tour de saut à ski&lt;/small&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 14 Jul 2014 19:40:21 +0900</pubDate>
-        <link>https://gangneungstyle.github.io/fr/2014/07/14/gangneung-style.html</link>
-        <guid isPermaLink="true">https://gangneungstyle.github.io/fr/2014/07/14/gangneung-style.html</guid>
+        <pubDate>Sun, 31 Aug 2014 19:40:21 +0900</pubDate>
+        <link>https://gangneungstyle.github.io/fr/2014/08/31/Gangneung-Style.html</link>
+        <guid isPermaLink="true">https://gangneungstyle.github.io/fr/2014/08/31/Gangneung-Style.html</guid>
       </item>
     
       <item>
-        <title>Welcome to Gangneung Style!</title>
-        <description>&lt;p&gt;You&amp;#39;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+        <title>First post</title>
+        <description>&lt;p&gt;Here we go, we have moved to Korea.&lt;/p&gt;
 
-&lt;p&gt;강릉 스타일&lt;/p&gt;
+&lt;p&gt;It has already been a week, and even if we haven&amp;#39;t had much time to explore, we had the time to enjoy a good range of different Korean food, and visit the city a bit. &lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;We spent the first week in Alpensia, in PyongChang. This is a ski resort that looks very similar to the ones I kow in France, except for the Korean characters on the sign posts. There are not a lot of summer activities, but the mountains are very green. Next week, we are moving to &lt;a href=&quot;http://en.wikipedia.org/wiki/Gangneung&quot; title=&quot;Gangneung on Wikipedia&quot;&gt;Gangneung&lt;/a&gt;, a coastal city.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;show&lt;/span&gt;
-  &lt;span class=&quot;vi&quot;&gt;@widget&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Widget&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;params&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;respond_to&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# show.html.erb&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;json&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;render&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@widget&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Below is a selection of pictures illustrating different aspect of our discoveries so far.&lt;/p&gt;
+
+&lt;div class=&quot;container-picture&quot;&gt;
+  &lt;img class=&quot;img-responsive picture&quot; src=&quot;http://localhost:4000/assets/gangneung_barbecue.png&quot;/&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;small&gt;A barbecue place in Gyo-dong, Gangneung.&lt;/small&gt;&lt;/p&gt;
+
+&lt;div class=&quot;container-picture&quot;&gt;
+  &lt;img class=&quot;img-responsive picture&quot; src=&quot;http://localhost:4000/assets/alpensia.png&quot;/&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;small&gt;Alpensia resort, in PyeongChang&lt;/small&gt;&lt;/p&gt;
+
+&lt;div class=&quot;container-picture&quot;&gt;
+  &lt;img class=&quot;img-responsive picture&quot; src=&quot;http://localhost:4000/assets/alpensia_sunset.png&quot;/&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;small&gt;Another view of Alpensia in the sunset; on the left, the future Olympic ski jump tower&lt;/small&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 14 Jul 2014 19:40:21 +0900</pubDate>
-        <link>https://gangneungstyle.github.io/en/2014/07/14/gangneung-style.html</link>
-        <guid isPermaLink="true">https://gangneungstyle.github.io/en/2014/07/14/gangneung-style.html</guid>
+        <pubDate>Sun, 31 Aug 2014 19:40:21 +0900</pubDate>
+        <link>https://gangneungstyle.github.io/en/2014/08/31/Gangneung-Style.html</link>
+        <guid isPermaLink="true">https://gangneungstyle.github.io/en/2014/08/31/Gangneung-Style.html</guid>
       </item>
     
   </channel>
 </rss>
+

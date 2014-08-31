@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+
+  
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>First post</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <!-- Font awsome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- syntax highlighting CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/blog.css">
+    
+    <!-- Css for flags -->
+    <link href="/assets/docs.css" rel="stylesheet">
+    <link href="/css/flag-icon.css" rel="stylesheet">
+
+    <script language="javascript">
+
+$(function(){
+    alert('test 2');
+    $('#blog-header').data('size','big');
+});
+
+$(window).scroll(function(){
+    if($(document).scrollTop() > 0)
+    {
+        if($('#blog-header').data('size') == 'big')
+        {
+            $('#blog-header').data('size','small');
+            $('#blog-header').stop().animate({
+                height:'40px'
+            },600);
+        }
+    }
+    else
+    {
+        if($('#blog-header').data('size') == 'small')
+        {
+            $('#blog-header').data('size','big');
+            $('#blog-header').stop().animate({
+                height:'170px'
+            },600);
+        }
+    }
+})
+    </script>
+  </head>
+  <body role="document">
+
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          
+          <a class="blog-nav-item active" href="/">Gangneung Style</a>
+          <a class="blog-nav-item " href="/en/">Home</a>
+          
+        </nav>
+      </div>
+
+      <div id="#blog-header" class="col-sm-12 blog-header">
+        <div class="container">
+          <h2 class="blog-title">Gangneung Style</h2>
+          <p class="lead blog-description">Discovery of Korea</p>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="container">
+
+      <div class="row">
+
+        <!--<div class="col-sm-12 blog-header">
+          <h2 class="blog-title">Gangneung Style</h2>
+          <p class="lead blog-description">Discovery of Korea</p>
+        </div>-->
+
+        <div class="col-sm-12 blog-main">
+          
+
+  
+
+
+<div class="blog-post">
+  <h2 class="blog-post-title">First post</h2>
+  <p class="blog-post-meta">31 Aug 2014 by David<br/>
+    
+    
+      
+      
+        Lire ce post en <a href="/fr/2014/08/31/Gangneung-Style.html"><span class="flag-icon flag-icon-fr"></span> français</a><br/>
+      
+    
+      
+      
+    
+  </p>
+
+  <p>Here we go, we have moved to Korea.</p>
+
+<p>It has already been a week, and even if we haven&#39;t had much time to explore, we had the time to enjoy a good range of different Korean food, and visit the city a bit. </p>
+
+<p>We spent the first week in Alpensia, in PyongChang. This is a ski resort that looks very similar to the ones I kow in France, except for the Korean characters on the sign posts. There are not a lot of summer activities, but the mountains are very green. Next week, we are moving to <a href="http://en.wikipedia.org/wiki/Gangneung" title="Gangneung on Wikipedia">Gangneung</a>, a coastal city.</p>
+
+<p>Below is a selection of pictures illustrating different aspect of our discoveries so far.</p>
+
+<div class="container-picture">
+  <img class="img-responsive picture" src="http://localhost:4000/assets/gangneung_barbecue.png"/>
+</div>
+
+<p><small>A barbecue place in Gyo-dong, Gangneung.</small></p>
+
+<div class="container-picture">
+  <img class="img-responsive picture" src="http://localhost:4000/assets/alpensia.png"/>
+</div>
+
+<p><small>Alpensia resort, in PyeongChang</small></p>
+
+<div class="container-picture">
+  <img class="img-responsive picture" src="http://localhost:4000/assets/alpensia_sunset.png"/>
+</div>
+
+<p><small>Another view of Alpensia in the sunset; on the left, the future Olympic ski jump tower</small></p>
+
+
+</div>
+
+        </div><!-- ./blog-main -->
+
+        <div class="col-sm-12 blog-sidebar">
+          <div class="container sidebar-module sidebar-module-inset">
+          <!--<div class="sidebar-module sidebar-module-inset">-->
+            <h4>About</h4>
+            <p>
+              
+                <div class="col-xs-4 col-md-2">
+                  <img class="img-responsivei img-circle img-author" src="http://localhost:4000/assets/David.png"/>
+                </div>
+              
+              <p>This blog will describe my life in Korea, or at least some hopefully interesting facts gathered around while living there.</p>
+              
+              <p></p>
+              My name is David and I moved to Korea for work. I should stay there for a bit more than 3 years.
+              
+            </p>
+          <!--</div>-->
+          </div>
+
+          <div class="sidebar-module">
+            <h4>Archives</h4>
+            <ol class="list-unstyled">
+               
+                 
+                 
+                   
+                   
+                   
+                 
+               
+                 
+                 
+                   <li><a href="/2014/08">August 2014</a></li>
+                 
+                
+            </ol>
+          </div>
+        </div><!-- /.blog-sidebar -->     
+
+      </div><!-- ./row -->   
+    </div> <!-- /.container -->
+
+    <div class="blog-footer">
+      <p>
+        <a href="/feed.xml"><i class="fa fa-rss-square"></i></a>
+      </p>
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
