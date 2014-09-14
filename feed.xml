@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+
+  
+
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gangneung Style</title>
-    <description></description>	
+    <title xml:lang="en">Gangneung Style</title>
+    <description xml:lang="en"></description>	
     <link>https://gangneungstyle.github.io</link>
     <atom:link href="https://gangneungstyle.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Gangneung</title>
-        <description>&lt;p&gt;Ce week-end avait lieu &lt;a href=&quot;http://fr.wikipedia.org/wiki/Chuseok&quot; title=&quot;Chuseok sur Wikipedia&quot;&gt;Chuseok&lt;/a&gt;. Lundi, Mardi et Mercredi étaient fériés, ce qui nous a laissé du temps pour nous promener et visiter Gangneung un peu plus.&lt;/p&gt;
+        <title xml:lang="en">Gangneung</title>
+        <description xml:lang="en">&lt;p&gt;Ce week-end avait lieu &lt;a href=&quot;http://fr.wikipedia.org/wiki/Chuseok&quot; title=&quot;Chuseok sur Wikipedia&quot;&gt;Chuseok&lt;/a&gt;. Lundi, Mardi et Mercredi étaient fériés, ce qui nous a laissé du temps pour nous promener et visiter Gangneung un peu plus.&lt;/p&gt;
 
 &lt;p&gt;Samedi et Dimanche, nous avons marché dans la ville de Gangneung et en direction de la plage. Gangneung est situé sur la côte Est de la Corée du sud, et on y trouve plusieurs plages, qui sont bien aménagées, mais un peu en-dehors de la ville, donc dans un cadre naturel et agréable. Le temps était superbe (soleil, 27 degrés), donc j&amp;#39;en ai profité pour me baigner.&lt;/p&gt;
 
@@ -66,8 +70,8 @@
       </item>
     
       <item>
-        <title>Gangneung</title>
-        <description>&lt;p&gt;This weekend was &lt;a href=&quot;http://en.wikipedia.org/wiki/Chuseok&quot; title=&quot;Chuseok on Wikipedia&quot;&gt;Chuseok&lt;/a&gt; in South Korea. Monday, Tuesday and Wednesday were bank holidays, which gave us some time to visit.&lt;/p&gt;
+        <title xml:lang="en">Gangneung</title>
+        <description xml:lang="en">&lt;p&gt;This weekend was &lt;a href=&quot;http://en.wikipedia.org/wiki/Chuseok&quot; title=&quot;Chuseok on Wikipedia&quot;&gt;Chuseok&lt;/a&gt; in South Korea. Monday, Tuesday and Wednesday were bank holidays, which gave us some time to visit.&lt;/p&gt;
 
 &lt;p&gt;On the weekend, we walked in the city of Gangneung and to the beach. Gangneung is on the coast and has several beaches that are very nice. On top of that, the weather was great (sunny and 27 degrees), so I went for a swim in the warm water.&lt;/p&gt;
 
@@ -125,8 +129,8 @@
       </item>
     
       <item>
-        <title>Premier post</title>
-        <description>&lt;p&gt;Ça y est, nous avons déménagé en Corée du Sud.&lt;/p&gt;
+        <title xml:lang="en">Premier post</title>
+        <description xml:lang="en">&lt;p&gt;Ça y est, nous avons déménagé en Corée du Sud.&lt;/p&gt;
 
 &lt;p&gt;Déjà une semaine de passée, et même si nous n&amp;#39;avons pas eu trop le temps de visiter, nous avons pu nous initier à la cuisine Coréenne, et visiter un peu la ville de Gangneung.&lt;/p&gt;
 
@@ -158,8 +162,8 @@
       </item>
     
       <item>
-        <title>First post</title>
-        <description>&lt;p&gt;Here we go, we have moved to Korea.&lt;/p&gt;
+        <title xml:lang="en">First post</title>
+        <description xml:lang="en">&lt;p&gt;Here we go, we have moved to Korea.&lt;/p&gt;
 
 &lt;p&gt;It has already been a week, and even if we haven&amp;#39;t had much time to explore, we had the time to enjoy a good range of different Korean food, and visit the city a bit.&lt;/p&gt;
 
